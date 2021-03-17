@@ -19,14 +19,9 @@ struct SignInWithEmailView: View {
     var body: some View {
         
         ZStack{
-//            Circle()
-//            .fill(Color("NEW_BLUE"))
-//            .frame(width: 2500, height: 2500)
-//            .offset(x: 0,y: 0)
-            Circle()
-                .fill(LinearGradient(gradient: Gradient(colors: [Color("NEW_BLUE").opacity(0.1), Color("NEW_BLUE")]), startPoint: .center, endPoint: .leading))
-                .frame(width: 500, height: 500)
-                .offset(x: 100,y: 0)
+            Rectangle()
+                .fill(Color("NEW_BLUE"))
+                .edgesIgnoringSafeArea(.all)
             VStack {
                 VStack(){
                     TextField("Email Address",
