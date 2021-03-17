@@ -24,7 +24,7 @@ struct SignInWithEmailView: View {
                 .edgesIgnoringSafeArea(.all)
             VStack {
                 VStack(){
-                    TextField("Email Address",
+                    TextField("E-mail Address",
                               text: self.$user.email)
                         .background(Color.clear)
                         .autocapitalization(.none)
