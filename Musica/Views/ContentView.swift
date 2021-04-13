@@ -17,7 +17,7 @@ struct ContentView: View {
         // Group object
         Group{
             if userInfo.isUserAuthenticated == .undefined {
-                Text("Loading...")
+                Text("Loading 2...")
             }
             else if userInfo.isUserAuthenticated == .signedOut {
                 LoginView()
